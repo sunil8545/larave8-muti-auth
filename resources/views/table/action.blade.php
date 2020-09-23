@@ -1,0 +1,2 @@
+<button class="btn btn-secondary" wire:click="edit({{ $model->id }})"> <i class="fas fa-pencil-alt"></i> </button>
+<button class="btn btn-danger" wire:click="destroy({{ $model->id }})"><i class="fas fa-trash"></i> </button>
